@@ -12,8 +12,10 @@ dependencies = [
     "langchain>=1.4.5",
     "langchain-community>=0.4.2",
     "langchain-core>=1.6.10",
+    "openpyxl>=3.1.5",
     "pymupdf>=1.28.2",
     "pypdf>=6.20.1",
+    "unstructured[xlsx]>=0.18.32",
 ]
 
 [project.scripts]

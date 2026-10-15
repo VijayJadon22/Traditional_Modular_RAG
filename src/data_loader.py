@@ -84,7 +84,3 @@ def load_all_documents(data_dir: str) -> List[Any]:
 
     print(f"\nTotal documents loaded: {len(documents)}")
     return documents
-
-
-all_documents = load_all_documents("../data")
-print(all_documents)

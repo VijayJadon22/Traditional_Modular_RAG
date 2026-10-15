@@ -24,7 +24,7 @@ class EmbeddingPipeline:
             separators=["\n\n", "\n", " ", ""],
         )
 
-        chunks = splitter.split_documents()
+        chunks = splitter.split_documents(documents)
         print(f"[INFO] Split {len(documents)} documents into {len(chunks)} chunks.")
         return chunks
 
